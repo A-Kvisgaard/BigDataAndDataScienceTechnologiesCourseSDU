@@ -6,7 +6,7 @@ from time import sleep
 """
 print("start")
 kClient = KafkaClient()
-kClient.setup_env(['kafka1:9092', 'kafka2:9092', 'kafka3:9092'])
+kClient.setup_env(['localhost:9092'])
 print("setup ok")
 
 
